@@ -1,6 +1,6 @@
 pipeline {
 
-    tools {DockerTool '17.09.1-ce'}
+    tools {docker 'latest'}
 
     agent {
         docker {
